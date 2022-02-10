@@ -1,0 +1,56 @@
+*{
+    border:none;
+    margin:0;
+    padding:0;
+    outline:0;
+}
+.card-row {
+    justify-content: space-evenly;
+    
+}
+.card img{
+    height:10rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.carousel-item img{
+
+    width:10rem;
+    height: 30rem;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+}
+
+form, .location-container{
+    flex-basis:50%;
+ 
+   
+}
+
+form, .location-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check-label{
+    width:10rem;
+}
